@@ -1,0 +1,7 @@
+input("введите число начало отрезка")
+a=int(input())
+input("введите число конец отрезка")
+b=int(input())
+for i in range(a,b+1):
+    if i%2==0:
+         print(i, end=' ')
