@@ -1,0 +1,6 @@
+mystring=str(input())
+a=mystring[::-1]
+if mystring==a:
+    print("yes")
+else:
+    print("no")
