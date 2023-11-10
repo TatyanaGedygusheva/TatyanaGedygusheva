@@ -1,0 +1,4 @@
+n=int(input('Введите количество символов'))
+spisok=list(map(int,input().split()))[:n]
+f=set(spisok)
+print(len(f))
